@@ -1,0 +1,303 @@
+﻿
+/* Default styles (for desktops) */
+body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+/* Mobile Phones (480px and below) */
+@media (max-width:480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .menu {
+        display: none; /* Hide desktop menu */
+    }
+
+    .mobile-menu {
+        display: block; /* Show mobile-friendly menu */
+    }
+}
+
+
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.both-sides{
+    display:block;
+    justify-content:center;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+
+.left-side {
+    
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    width: 100%;
+}
+
+.right-side { 
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    width: 100%;
+}
+
+
+
+
+.btn--base .outline {
+    background-color: transparent;
+    border: 1px solid hsl(var(--base));
+    color: hsl(var(--base));
+}
+
+
+
+
+.press {
+    height: 55px;
+    width: max-content;
+    line-height: 50px;
+    color: #28B9F5;
+    background-color: #fff;
+    border: solid;
+    border-color: #28B9F5;
+    font-weight: 400;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+
+    .press:hover {
+        background-color:#2BA9EA;
+        color:#fff;
+        transition:1s;
+        animation:alternate;
+    }
+
+.gallerybtn {
+    display: flex;
+    justify-content: center;     
+}
+
+.sector {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.motion {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+}
+
+
+div.horse {
+    height: auto;
+    width: auto;
+    transition: 1s;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+.horsevidz {
+    object-fit: contain;
+    height: 320px;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+}
+
+.gyal {
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 210px;
+    transition: 1s;
+    position: relative;
+    text-align: center;
+}
+
+    .gyal img {
+        object-fit: contain;
+        max-width:100%;
+    }
+
+    .gyal2 img {
+        object-fit: contain;
+        max-width: 100%;
+    } 
+
+.gyal2 {
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 210px;
+    transition: 1s;
+    position: relative;
+    text-align: center;
+}
+
+.gyalcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #28B9F5;
+}
+
+
+.numbertext {
+    justify-content: center;
+    text-align: center;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: 96%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.centered2 { 
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.centered3 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 150%;
+}
+
+.centered4 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 400%;
+}
+
+.btnpr {
+    display: flex;
+    justify-content: space-between;
+}
+
+#myVideo {
+    position: fixed;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: relative;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+    #myBtn:hover {
+        background: #ddd;
+        color: black;
+    }
+
+
+.stillphotos {
+    border: 1px solid #c3c3c3;
+    justify-content: center;
+    padding: 40px;
+}
+
+.gallery {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery2 {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    gap: 70px;
+} 

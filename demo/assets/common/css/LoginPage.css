@@ -1,0 +1,36 @@
+﻿/* Styles for tablets (screens between 600px and 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Styles for larger screens (desktops and laptops) */
+@media (min-width: 1025px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+.login-logout-card .card-header {
+    margin: 0px 0px 12px 0px;
+}
+
+.login-logout-card ul.navtabs {
+    margin: 0px 0px -12px 0px;
+}
+
+.login-logout-card li.nav-item {
+    width: 50%;
+}
+
+.login-logout-card a.nav-link {
+    font-size: 1rem;
+    color: #495057;
+    text-align: center;
+    padding: 1rem;
+}
+
+.login-logout-card card-body {
+    padding: 10px 20px;
+}

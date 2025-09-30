@@ -1,0 +1,169 @@
+/* Styles for tablets (screens between 600px and 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Styles for larger screens (desktops and laptops) */
+@media (min-width: 1025px) {
+    body {
+        font-size: 20px;
+    }
+} 
+
+html {
+  font-size: 14px;
+  font-family:serif;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+    margin-bottom: 60px;
+    font-family:Arial;
+    background-color: #EBF3EF;
+}
+
+
+.tagline2 {
+    font-size: 300%;
+}      
+
+.Jamaica {
+    text-align: left;
+}
+
+.usermessage {
+    animation: bishopmove 5s;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+@keyframes bishopmove {
+    from {
+        left: -400px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+.usergreeting {
+    animation: kingmove 5s;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+@keyframes kingmove {
+    from {
+        left: 400px;
+    }
+
+    to {
+        left: 0px; 
+    }
+}
+
+.tagline {
+    
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-size: 400%;
+}
+
+@keyframes newmove {
+    from {
+        left: 300px;
+    }
+
+    to {
+        left: 0px;
+    }
+} 
+
+.graph {
+    animation: yourmove 5s;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display:flex;
+    justify-content:center;
+    gap: 100px;
+}
+
+
+@keyframes yourmove {
+    from {
+        left: -300px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+
+.graph2 {
+    animation: rightmove 5s;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+} 
+
+
+@keyframes rightmove {
+    from {
+        left: 300px;
+    }
+
+    to {
+        left: 0px;
+    }
+} 
+
+
+.navbar {
+    background-color: #FFD402;
+    justify-content: space-around;
+} 
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.active {
+    background-color: #717171;
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
